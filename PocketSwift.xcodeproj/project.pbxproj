@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1047D1C62253EAE8001B7F10 /* PocketEthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1047D1C52253EAE8001B7F10 /* PocketEthTests.swift */; };
+		1088F0D32252AEFE004A0EB4 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1088F0D22252AEFE004A0EB4 /* JSON.swift */; };
+		C5CF283F2253FE660085B45E /* BigUInt+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF283E2253FE660085B45E /* BigUInt+Extensions.swift */; };
+		C80576A1223FC57E00B041EB /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80576A0223FC57E00B041EB /* String+Extensions.swift */; };
+		C80576A3223FD0F400B041EB /* Error+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80576A2223FD0F400B041EB /* Error+Extensions.swift */; };
+		C80576A5223FF6F100B041EB /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80576A4223FF6F100B041EB /* Wallet.swift */; };
+		C80934982241AF490073B734 /* SchedulerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80934972241AF490073B734 /* SchedulerProvider.swift */; };
+		C80D8B6422459400003AE3E8 /* PocketAionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D8B6322459400003AE3E8 /* PocketAionTests.swift */; };
+		C839019A223D82660092A9DF /* PocketSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8390190223D82660092A9DF /* PocketSwift.framework */; };
+		C839019F223D82660092A9DF /* PocketCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C839019E223D82660092A9DF /* PocketCoreTests.swift */; };
+		C83901A1223D82660092A9DF /* PocketSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = C8390193223D82660092A9DF /* PocketSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C83901EF223D9D150092A9DF /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83901DC223D9D150092A9DF /* Dictionary+Extensions.swift */; };
+		C83901F0223D9D150092A9DF /* ServerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83901DE223D9D150092A9DF /* ServerConfiguration.swift */; };
+		C83901F1223D9D150092A9DF /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83901DF223D9D150092A9DF /* Configuration.swift */; };
+		C83901F2223D9D150092A9DF /* WebServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83901E1223D9D150092A9DF /* WebServiceImpl.swift */; };
+		C83901F3223D9D150092A9DF /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83901E3223D9D150092A9DF /* Observer.swift */; };
+		C83901F4223D9D150092A9DF /* ObjectAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83901E4223D9D150092A9DF /* ObjectAssociation.swift */; };
+		C83901F5223D9D150092A9DF /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83901E5223D9D150092A9DF /* Dynamic.swift */; };
+		C83901F6223D9D150092A9DF /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83901E6223D9D150092A9DF /* Controller.swift */; };
+		C83901F7223D9D150092A9DF /* LiveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83901E7223D9D150092A9DF /* LiveData.swift */; };
+		C83901F8223D9D150092A9DF /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83901E8223D9D150092A9DF /* Endpoint.swift */; };
+		C83901F9223D9D150092A9DF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83901EA223D9D150092A9DF /* Model.swift */; };
+		C83901FA223D9D150092A9DF /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83901EB223D9D150092A9DF /* WebService.swift */; };
+		C83901FB223D9D150092A9DF /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83901EC223D9D150092A9DF /* Repository.swift */; };
+		C83901FC223D9D150092A9DF /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83901ED223D9D150092A9DF /* Input.swift */; };
+		C83901FD223D9D150092A9DF /* Pocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83901EE223D9D150092A9DF /* Pocket.swift */; };
+		C8390200223D9DFD0092A9DF /* Blockchain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83901FF223D9DFD0092A9DF /* Blockchain.swift */; };
+		C8390202223D9F490092A9DF /* Relay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8390201223D9F490092A9DF /* Relay.swift */; };
+		C8390205223DA1330092A9DF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8390204223DA1330092A9DF /* Utils.swift */; };
+		C8390209223DA2CB0092A9DF /* RelayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8390208223DA2CB0092A9DF /* RelayController.swift */; };
+		C839020B223DA2D80092A9DF /* RelayRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C839020A223DA2D80092A9DF /* RelayRepository.swift */; };
+		C839022F223DB54A0092A9DF /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C839022E223DB54A0092A9DF /* Dispatch.swift */; };
+		C8390231223DB8630092A9DF /* DispatchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8390230223DB8630092A9DF /* DispatchRepository.swift */; };
+		C8390233223DB8E20092A9DF /* DispatchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8390232223DB8E20092A9DF /* DispatchController.swift */; };
+		C8390235223DBA380092A9DF /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8390234223DBA380092A9DF /* Node.swift */; };
+		C84F2C92223E90C900BA1AA8 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84F2C91223E90C900BA1AA8 /* Array+Extensions.swift */; };
+		C8E43FD5223EFEC700623885 /* PocketError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E43FD4223EFEC700623885 /* PocketError.swift */; };
+		C8F25FC022402BC10081B039 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F25FBF22402BC10081B039 /* Report.swift */; };
+		C8F25FC2224031410081B039 /* ReportRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F25FC1224031410081B039 /* ReportRepository.swift */; };
+		C8F25FC4224031CE0081B039 /* ReportController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F25FC3224031CE0081B039 /* ReportController.swift */; };
+		C8FA35392249E01900D31B8C /* BigInt+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FA35382249E01900D31B8C /* BigInt+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C839019B223D82660092A9DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8390187223D82660092A9DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C839018F223D82660092A9DF;
+			remoteInfo = PocketSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1047D1C52253EAE8001B7F10 /* PocketEthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketEthTests.swift; sourceTree = "<group>"; };
+		1088F0D22252AEFE004A0EB4 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		C5ABD48D234EDBD600C779DC /* SwiftKeychainWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftKeychainWrapper.framework; path = Carthage/Build/iOS/SwiftKeychainWrapper.framework; sourceTree = "<group>"; };
+		C5ABD48E234EDBD600C779DC /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		C5ABD48F234EDBD600C779DC /* BigInt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BigInt.framework; path = Carthage/Build/iOS/BigInt.framework; sourceTree = "<group>"; };
+		C5ABD490234EDBD600C779DC /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		C5ABD491234EDBD600C779DC /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		C5ABD492234EDBD600C779DC /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		C5ABD493234EDBD600C779DC /* RNCryptor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RNCryptor.framework; path = Carthage/Build/iOS/RNCryptor.framework; sourceTree = "<group>"; };
+		C5ABD494234EDBD600C779DC /* RxAtomic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxAtomic.framework; path = Carthage/Build/iOS/RxAtomic.framework; sourceTree = "<group>"; };
+		C5CF283E2253FE660085B45E /* BigUInt+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BigUInt+Extensions.swift"; sourceTree = "<group>"; };
+		C80576A0223FC57E00B041EB /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		C80576A2223FD0F400B041EB /* Error+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+Extensions.swift"; sourceTree = "<group>"; };
+		C80576A4223FF6F100B041EB /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		C80934972241AF490073B734 /* SchedulerProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerProvider.swift; sourceTree = "<group>"; };
+		C80D8B6322459400003AE3E8 /* PocketAionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketAionTests.swift; sourceTree = "<group>"; };
+		C8390190223D82660092A9DF /* PocketSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PocketSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8390193223D82660092A9DF /* PocketSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PocketSwift.h; sourceTree = "<group>"; };
+		C8390194223D82660092A9DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8390199223D82660092A9DF /* PocketSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C839019E223D82660092A9DF /* PocketCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketCoreTests.swift; sourceTree = "<group>"; };
+		C83901A0223D82660092A9DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C83901AC223D842B0092A9DF /* QA.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = QA.xcconfig; sourceTree = "<group>"; };
+		C83901AD223D84350092A9DF /* PROD.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = PROD.xcconfig; sourceTree = "<group>"; };
+		C83901DC223D9D150092A9DF /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
+		C83901DE223D9D150092A9DF /* ServerConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerConfiguration.swift; sourceTree = "<group>"; };
+		C83901DF223D9D150092A9DF /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		C83901E1223D9D150092A9DF /* WebServiceImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceImpl.swift; sourceTree = "<group>"; };
+		C83901E3223D9D150092A9DF /* Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		C83901E4223D9D150092A9DF /* ObjectAssociation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectAssociation.swift; sourceTree = "<group>"; };
+		C83901E5223D9D150092A9DF /* Dynamic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		C83901E6223D9D150092A9DF /* Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		C83901E7223D9D150092A9DF /* LiveData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveData.swift; sourceTree = "<group>"; };
+		C83901E8223D9D150092A9DF /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		C83901EA223D9D150092A9DF /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C83901EB223D9D150092A9DF /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		C83901EC223D9D150092A9DF /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		C83901ED223D9D150092A9DF /* Input.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
+		C83901EE223D9D150092A9DF /* Pocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pocket.swift; sourceTree = "<group>"; };
+		C83901FF223D9DFD0092A9DF /* Blockchain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blockchain.swift; sourceTree = "<group>"; };
+		C8390201223D9F490092A9DF /* Relay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relay.swift; sourceTree = "<group>"; };
+		C8390204223DA1330092A9DF /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		C8390208223DA2CB0092A9DF /* RelayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelayController.swift; sourceTree = "<group>"; };
+		C839020A223DA2D80092A9DF /* RelayRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelayRepository.swift; sourceTree = "<group>"; };
+		C839022E223DB54A0092A9DF /* Dispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dispatch.swift; sourceTree = "<group>"; };
+		C8390230223DB8630092A9DF /* DispatchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchRepository.swift; sourceTree = "<group>"; };
+		C8390232223DB8E20092A9DF /* DispatchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchController.swift; sourceTree = "<group>"; };
+		C8390234223DBA380092A9DF /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		C84F2C91223E90C900BA1AA8 /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		C8E43FD4223EFEC700623885 /* PocketError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketError.swift; sourceTree = "<group>"; };
+		C8F25FBF22402BC10081B039 /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		C8F25FC1224031410081B039 /* ReportRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportRepository.swift; sourceTree = "<group>"; };
+		C8F25FC3224031CE0081B039 /* ReportController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportController.swift; sourceTree = "<group>"; };
+		C8FA35382249E01900D31B8C /* BigInt+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BigInt+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C839018D223D82660092A9DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8390196223D82660092A9DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C839019A223D82660092A9DF /* PocketSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5ABD48C234EDBD600C779DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5ABD48F234EDBD600C779DC /* BigInt.framework */,
+				C5ABD493234EDBD600C779DC /* RNCryptor.framework */,
+				C5ABD494234EDBD600C779DC /* RxAtomic.framework */,
+				C5ABD492234EDBD600C779DC /* RxBlocking.framework */,
+				C5ABD491234EDBD600C779DC /* RxCocoa.framework */,
+				C5ABD48E234EDBD600C779DC /* RxSwift.framework */,
+				C5ABD490234EDBD600C779DC /* RxTest.framework */,
+				C5ABD48D234EDBD600C779DC /* SwiftKeychainWrapper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8390186223D82660092A9DF = {
+			isa = PBXGroup;
+			children = (
+				C8390192223D82660092A9DF /* PocketSwift */,
+				C839019D223D82660092A9DF /* PocketSwiftTests */,
+				C8390191223D82660092A9DF /* Products */,
+				E04D667C20330CE7097ACBE8 /* Pods */,
+				C5ABD48C234EDBD600C779DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C8390191223D82660092A9DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8390190223D82660092A9DF /* PocketSwift.framework */,
+				C8390199223D82660092A9DF /* PocketSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8390192223D82660092A9DF /* PocketSwift */ = {
+			isa = PBXGroup;
+			children = (
+				C83901D3223D9A9E0092A9DF /* Packages */,
+				C8390193223D82660092A9DF /* PocketSwift.h */,
+				C8390194223D82660092A9DF /* Info.plist */,
+				C83901AC223D842B0092A9DF /* QA.xcconfig */,
+				C83901AD223D84350092A9DF /* PROD.xcconfig */,
+			);
+			path = PocketSwift;
+			sourceTree = "<group>";
+		};
+		C839019D223D82660092A9DF /* PocketSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				1047D1C52253EAE8001B7F10 /* PocketEthTests.swift */,
+				C839019E223D82660092A9DF /* PocketCoreTests.swift */,
+				C80D8B6322459400003AE3E8 /* PocketAionTests.swift */,
+				C83901A0223D82660092A9DF /* Info.plist */,
+			);
+			path = PocketSwiftTests;
+			sourceTree = "<group>";
+		};
+		C83901AB223D840B0092A9DF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C83901DA223D9D150092A9DF /* Architecture */,
+				C8390206223DA2B00092A9DF /* Controller */,
+				C83901FE223D9DE90092A9DF /* Model */,
+				C8390203223DA11E0092A9DF /* Util */,
+				C83901EE223D9D150092A9DF /* Pocket.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C83901D3223D9A9E0092A9DF /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				C83901AB223D840B0092A9DF /* Core */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		C83901DA223D9D150092A9DF /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				C8E43FD3223EFEB200623885 /* Error */,
+				C83901DB223D9D150092A9DF /* Extension */,
+				C83901DD223D9D150092A9DF /* Config */,
+				C83901E0223D9D150092A9DF /* Network */,
+				C83901E2223D9D150092A9DF /* Component */,
+				C83901E9223D9D150092A9DF /* Protocol */,
+			);
+			path = Architecture;
+			sourceTree = "<group>";
+		};
+		C83901DB223D9D150092A9DF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C83901DC223D9D150092A9DF /* Dictionary+Extensions.swift */,
+				C84F2C91223E90C900BA1AA8 /* Array+Extensions.swift */,
+				C80576A0223FC57E00B041EB /* String+Extensions.swift */,
+				C80576A2223FD0F400B041EB /* Error+Extensions.swift */,
+				C8FA35382249E01900D31B8C /* BigInt+Extensions.swift */,
+				C5CF283E2253FE660085B45E /* BigUInt+Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C83901DD223D9D150092A9DF /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				C83901DE223D9D150092A9DF /* ServerConfiguration.swift */,
+				C83901DF223D9D150092A9DF /* Configuration.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		C83901E0223D9D150092A9DF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C83901E1223D9D150092A9DF /* WebServiceImpl.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C83901E2223D9D150092A9DF /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				C83901E3223D9D150092A9DF /* Observer.swift */,
+				C83901E4223D9D150092A9DF /* ObjectAssociation.swift */,
+				C83901E5223D9D150092A9DF /* Dynamic.swift */,
+				C83901E6223D9D150092A9DF /* Controller.swift */,
+				C83901E7223D9D150092A9DF /* LiveData.swift */,
+				C83901E8223D9D150092A9DF /* Endpoint.swift */,
+				C80934972241AF490073B734 /* SchedulerProvider.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		C83901E9223D9D150092A9DF /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				C83901EA223D9D150092A9DF /* Model.swift */,
+				C83901EB223D9D150092A9DF /* WebService.swift */,
+				C83901EC223D9D150092A9DF /* Repository.swift */,
+				C83901ED223D9D150092A9DF /* Input.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		C83901FE223D9DE90092A9DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C83901FF223D9DFD0092A9DF /* Blockchain.swift */,
+				C8390201223D9F490092A9DF /* Relay.swift */,
+				C839022E223DB54A0092A9DF /* Dispatch.swift */,
+				C8390234223DBA380092A9DF /* Node.swift */,
+				C80576A4223FF6F100B041EB /* Wallet.swift */,
+				C8F25FBF22402BC10081B039 /* Report.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C8390203223DA11E0092A9DF /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				C8390204223DA1330092A9DF /* Utils.swift */,
+				1088F0D22252AEFE004A0EB4 /* JSON.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		C8390206223DA2B00092A9DF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C8390207223DA2BD0092A9DF /* Repository */,
+				C8390208223DA2CB0092A9DF /* RelayController.swift */,
+				C8390232223DB8E20092A9DF /* DispatchController.swift */,
+				C8F25FC3224031CE0081B039 /* ReportController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C8390207223DA2BD0092A9DF /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				C839020A223DA2D80092A9DF /* RelayRepository.swift */,
+				C8390230223DB8630092A9DF /* DispatchRepository.swift */,
+				C8F25FC1224031410081B039 /* ReportRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		C8E43FD3223EFEB200623885 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				C8E43FD4223EFEC700623885 /* PocketError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		E04D667C20330CE7097ACBE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C839018B223D82660092A9DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C83901A1223D82660092A9DF /* PocketSwift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C839018F223D82660092A9DF /* PocketSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C83901A4223D82660092A9DF /* Build configuration list for PBXNativeTarget "PocketSwift" */;
+			buildPhases = (
+				C839018B223D82660092A9DF /* Headers */,
+				C839018C223D82660092A9DF /* Sources */,
+				C839018D223D82660092A9DF /* Frameworks */,
+				C839018E223D82660092A9DF /* Resources */,
+				C5E72958234B9C9A00155217 /* Carthage */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketSwift;
+			productName = PocketSwift;
+			productReference = C8390190223D82660092A9DF /* PocketSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C8390198223D82660092A9DF /* PocketSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C83901A7223D82660092A9DF /* Build configuration list for PBXNativeTarget "PocketSwiftTests" */;
+			buildPhases = (
+				C8390195223D82660092A9DF /* Sources */,
+				C8390196223D82660092A9DF /* Frameworks */,
+				C8390197223D82660092A9DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C839019C223D82660092A9DF /* PBXTargetDependency */,
+			);
+			name = PocketSwiftTests;
+			productName = PocketSwiftTests;
+			productReference = C8390199223D82660092A9DF /* PocketSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8390187223D82660092A9DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Wilson Garcia";
+				TargetAttributes = {
+					C839018F223D82660092A9DF = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+					};
+					C8390198223D82660092A9DF = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = C839018A223D82660092A9DF /* Build configuration list for PBXProject "PocketSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8390186223D82660092A9DF;
+			productRefGroup = C8390191223D82660092A9DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C839018F223D82660092A9DF /* PocketSwift */,
+				C8390198223D82660092A9DF /* PocketSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C839018E223D82660092A9DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8390197223D82660092A9DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C5E72958234B9C9A00155217 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftKeychainWrapper.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RNCryptor.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/BigInt.framework",
+			);
+			name = Carthage;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SwiftKeychainWrapper.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RNCryptor.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/BigInt.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C839018C223D82660092A9DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C83901FC223D9D150092A9DF /* Input.swift in Sources */,
+				C83901F4223D9D150092A9DF /* ObjectAssociation.swift in Sources */,
+				C83901F2223D9D150092A9DF /* WebServiceImpl.swift in Sources */,
+				C84F2C92223E90C900BA1AA8 /* Array+Extensions.swift in Sources */,
+				C5CF283F2253FE660085B45E /* BigUInt+Extensions.swift in Sources */,
+				C80934982241AF490073B734 /* SchedulerProvider.swift in Sources */,
+				C8390231223DB8630092A9DF /* DispatchRepository.swift in Sources */,
+				C83901F3223D9D150092A9DF /* Observer.swift in Sources */,
+				C8390235223DBA380092A9DF /* Node.swift in Sources */,
+				C83901FB223D9D150092A9DF /* Repository.swift in Sources */,
+				1088F0D32252AEFE004A0EB4 /* JSON.swift in Sources */,
+				C839020B223DA2D80092A9DF /* RelayRepository.swift in Sources */,
+				C83901F5223D9D150092A9DF /* Dynamic.swift in Sources */,
+				C80576A1223FC57E00B041EB /* String+Extensions.swift in Sources */,
+				C8F25FC022402BC10081B039 /* Report.swift in Sources */,
+				C83901F8223D9D150092A9DF /* Endpoint.swift in Sources */,
+				C8FA35392249E01900D31B8C /* BigInt+Extensions.swift in Sources */,
+				C8390209223DA2CB0092A9DF /* RelayController.swift in Sources */,
+				C8F25FC4224031CE0081B039 /* ReportController.swift in Sources */,
+				C83901F1223D9D150092A9DF /* Configuration.swift in Sources */,
+				C83901FD223D9D150092A9DF /* Pocket.swift in Sources */,
+				C80576A5223FF6F100B041EB /* Wallet.swift in Sources */,
+				C8390200223D9DFD0092A9DF /* Blockchain.swift in Sources */,
+				C839022F223DB54A0092A9DF /* Dispatch.swift in Sources */,
+				C83901FA223D9D150092A9DF /* WebService.swift in Sources */,
+				C8E43FD5223EFEC700623885 /* PocketError.swift in Sources */,
+				C8390205223DA1330092A9DF /* Utils.swift in Sources */,
+				C83901EF223D9D150092A9DF /* Dictionary+Extensions.swift in Sources */,
+				C83901F0223D9D150092A9DF /* ServerConfiguration.swift in Sources */,
+				C80576A3223FD0F400B041EB /* Error+Extensions.swift in Sources */,
+				C8390233223DB8E20092A9DF /* DispatchController.swift in Sources */,
+				C8F25FC2224031410081B039 /* ReportRepository.swift in Sources */,
+				C83901F9223D9D150092A9DF /* Model.swift in Sources */,
+				C8390202223D9F490092A9DF /* Relay.swift in Sources */,
+				C83901F6223D9D150092A9DF /* Controller.swift in Sources */,
+				C83901F7223D9D150092A9DF /* LiveData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8390195223D82660092A9DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80D8B6422459400003AE3E8 /* PocketAionTests.swift in Sources */,
+				1047D1C62253EAE8001B7F10 /* PocketEthTests.swift in Sources */,
+				C839019F223D82660092A9DF /* PocketCoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C839019C223D82660092A9DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C839018F223D82660092A9DF /* PocketSwift */;
+			targetProxy = C839019B223D82660092A9DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C83901A2223D82660092A9DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C83901A3223D82660092A9DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = RELEASE;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C83901A5223D82660092A9DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 89229Z2MHH;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = PocketSwift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pokt.PocketSwift;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C83901A6223D82660092A9DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 89229Z2MHH;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = PocketSwift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pokt.PocketSwift;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C83901A8223D82660092A9DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 379F9842K2;
+				INFOPLIST_FILE = PocketSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pokt.PocketSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C83901A9223D82660092A9DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 379F9842K2;
+				INFOPLIST_FILE = PocketSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pokt.PocketSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C839018A223D82660092A9DF /* Build configuration list for PBXProject "PocketSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C83901A2223D82660092A9DF /* Debug */,
+				C83901A3223D82660092A9DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C83901A4223D82660092A9DF /* Build configuration list for PBXNativeTarget "PocketSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C83901A5223D82660092A9DF /* Debug */,
+				C83901A6223D82660092A9DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C83901A7223D82660092A9DF /* Build configuration list for PBXNativeTarget "PocketSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C83901A8223D82660092A9DF /* Debug */,
+				C83901A9223D82660092A9DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8390187223D82660092A9DF /* Project object */;
+}
