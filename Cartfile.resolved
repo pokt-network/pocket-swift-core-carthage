@@ -1,3 +1,5 @@
+github "Quick/Nimble" "v8.0.4"
+github "Quick/Quick" "v2.2.0"
 github "RNCryptor/RNCryptor" "5.1.0"
 github "ReactiveX/RxSwift" "4.5.0"
 github "attaswift/BigInt" "v5.0.0"
