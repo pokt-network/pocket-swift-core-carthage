@@ -1,10 +1,10 @@
 
 Pod::Spec.new do |main|
 
-  main.name                = "PocketSwift"
-  main.version             = "0.0.3"
-  main.summary             = "Pocket-swift package with a set of plugins that allows you to connect to the Eth and Aion Networks."
-  main.homepage            = "https://github.com/pokt-network/pocket-swift"
+  main.name                = "PocketSwift-Core"
+  main.version             = "0.0.1"
+  main.summary             = "Pocket-swift-Core contains the Core functionalities needed to interact with the Pocket Network."
+  main.homepage            = "https://github.com/pokt-network/pocket-swift-core-carthage"
   main.license             = { :type => 'MIT', :text => 'MIT License
 
 Copyright (c) 2019 Pocket Network
@@ -34,7 +34,7 @@ SOFTWARE.
                               "Pabel Nunez" => "pabel@pokt.network"
                             }
 
-  main.source              = { :git => "https://github.com/pokt-network/pocket-swift.git", :tag => main.version.to_s }
+  main.source              = { :git => "https://github.com/pokt-network/pocket-swift-core-carthage.git", :tag => main.version.to_s }
   main.source_files        = "PocketSwift/**/*.{h,m,swift}"
   main.exclude_files       = "PocketSwiftTests/**/*.{h,m,swift}", "Pods/*"
   main.swift_version       = "5"
@@ -48,24 +48,6 @@ SOFTWARE.
     core.dependency "SwiftKeychainWrapper"
     core.dependency "RNCryptor"
     core.dependency "BigInt"
-  end
-
-  main.subspec 'Eth' do |eth|
-    eth.source_files      = "PocketSwift/Packages/Eth/**/*.{h,m,swift}"
-    eth.dependency "PocketSwift/Core"
-    eth.dependency "pocket-web3swift", "~> 2.1.5"
-    eth.dependency "CryptoSwift"
-    eth.dependency "BigInt"
-  end
-
-  main.subspec 'Aion' do |aion|
-    aion.source_files      = "PocketSwift/Packages/Aion/**/*.{h,m,swift}"
-    aion.dependency "PocketSwift/Core"
-    aion.dependency "BigInt"
-    aion.resources = "PocketSwift/Packages/Aion/Resource/resource.bundle"
-    # aion.resource_bundles = {
-    #   "PocketSwiftAionBundle" => ['PocketSwift/Packages/Aion/Resource/*.bundle']
-    # }
   end
 
 end
